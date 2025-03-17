@@ -1,0 +1,8 @@
+<!-- Building a greeting app where the user can enter their name, and the app will display a greeting along with name. -->
+<div>
+    <h1>Welcome to Greeting App</h1>
+    <input type="text" [(ngModel)]="name" placeholder="Enter your name">
+    <button (click)="Submit()">Submit</button>
+    <p>{{greetingMessage}}</p>
+    
+</div>
